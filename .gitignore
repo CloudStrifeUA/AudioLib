@@ -1,0 +1,4 @@
+obj/*
+lib
+test/*_test
+test/test_*.wav
