@@ -35,7 +35,7 @@ int main()
 
 
     file.setSampleRate(44100);
-    file.setNumSamplesPerChannel(80528);
+    file.setNumSamplesPerChannel(NumSamples/2);
     file.Save("test_cut.wav");
 
     return 0;
