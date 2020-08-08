@@ -20,11 +20,11 @@ int main()
     {
         for(size_t sample = 1; sample < NumSamples - 1; sample++)
         {
-            file[channel][sample] = (file[channel][sample - 1] + file[channel][sample] + file[channel][sample + 1])/3;
+            file[channel][sample] *= 2;
         }
     }
 
-    file.setBitDepth(32);
+    file.setBitDepth(BIT_DEPTH_32);
     file.Save("test_copy.wav");
 
     file.setSampleRate(22050);
