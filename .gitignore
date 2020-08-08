@@ -1,4 +1,4 @@
 obj/*
 lib
-test/*_test
-test/test_*.wav
+examples/*_test
+examples/test_*.wav
